@@ -3,6 +3,6 @@ This is a chatroom service making use of socket.io library in nodejs.You can cha
 
 To run the service do the following:
 
-*clone the repository using git clone
-*run npm install
-*start the server by $npm start
+* clone the repository using git clone
+* run npm install
+* start the server by $npm start
