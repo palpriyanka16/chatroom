@@ -1,0 +1,102 @@
+body {
+padding: 50px;
+//font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+font size:14px;
+font-family:'Vollkorn', serif;
+background-image:url("/images/chatbox-logo.jpg");
+background-size:cover;
+}
+a {
+color: #00B7FF;
+}
+#instructions
+{   width:80%;
+	background-color:#FFE4C4;
+    padding:2px;
+    border-radius: 10px;
+    margin-left: 5em;
+    margin-top:3em;
+    font-family:Comic Sans MS;
+}
+#content {
+width: 800px;
+margin-top: 2em;
+margin-left: auto;
+margin-right: auto;
+}
+#room {
+background-color: white;
+//margin-top:3em;
+//margin-bottom: 1em;
+width:30%;
+border:1px solid black;
+border-radius:10px;
+//padding:5px;
+}
+#messages {
+border:1px solid black;	
+border-radius:10px;
+//padding:5px;
+//padding-top:1em;
+//padding-left:1em;
+width: 690px;
+height: 300px;
+overflow: auto;
+background-color:white;
+//margin-top:-10em;
+margin-bottom: 1em;
+margin-right: 10px;
+}
+#room-list {
+//margin-top:3em;	
+//padding:5px;	
+float: right;
+width: 100px;
+height: 300px;
+overflow: auto;
+background-color: white;
+border:1px solid black;
+border-radius:10px;
+cursor:pointer;
+}
+#room-list div {
+border-bottom: 1px solid #eee;
+}
+#room-list div:hover {
+background-color: #ddd;
+}
+#send-message {
+width: 700px;
+margin-bottom: 1em;
+margin-right: 1em;
+}
+#help {
+border:1px solid black;
+border-radius:10px;	
+background-color: white;	
+//font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+font-family:Comic Sans MS;
+}
+input[type=text]
+{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus
+{
+    border:1px solid blue;
+
+}
+#send-button
+{   font-family: Comic Sans MS;
+	background-color:#7FFF00;
+	cursor:pointer;
+	width:80px;
+	height:60px;
+}
